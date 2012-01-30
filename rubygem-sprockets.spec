@@ -2,7 +2,7 @@
 Summary:	Sprockets is a Rack-based asset packaging system
 Name:		rubygem-%{gemname}
 Version:	2.3.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
@@ -33,7 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%{bindir}/sprockets
+%{_bindir}/sprockets
 %{ruby_gemdir}/gems/%{gemname}-%{version}
 %{ruby_gemdir}/specifications/%{gemname}-%{version}.gemspec
-%doc %{gemdir}/doc/%{gemname}-%{version}
+%doc %{ruby_gemdir}/doc/%{gemname}-%{version}
