@@ -1,9 +1,9 @@
-%define __noautoreq '1.3.0'
+%define __noautoreq '!=|1.3.0'
 
 %define gemname sprockets
 Summary:	Sprockets is a Rack-based asset packaging system
 Name:		rubygem-%{gemname}
-Version:	2.3.0
+Version:	2.12.0
 Release:	8
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
