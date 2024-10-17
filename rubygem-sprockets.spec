@@ -8,7 +8,7 @@ Release:	9
 Source0:	http://rubygems.org/downloads/%{gemname}-%{version}.gem
 License:	MIT
 Group:		System/Servers
-Url:		http://www.rubyonrails.org/
+Url:		https://www.rubyonrails.org/
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems
 
